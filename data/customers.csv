@@ -1,0 +1,11 @@
+CustomerID,CustomerName,Email,Phone,State,City,JoinDate
+C001,Amit Shah,amit@gmail.com,9876543210,Gujarat,Ahmedabad,2024-01-15
+C002,Priya Patel,priya@gmail.com,9876543211,Gujarat,Surat,2024-02-10
+C003,Rahul Mehta,rahul@gmail.com,9876543212,Maharashtra,Mumbai,2024-03-05
+C004,Neha Verma,neha@gmail.com,9876543213,Delhi,New Delhi,2024-04-12
+C005,Karan Singh,karan@gmail.com,9876543214,Rajasthan,Jaipur,2024-05-18
+C006,Sneha Iyer,sneha@gmail.com,9876543215,Karnataka,Bangalore,2024-06-20
+C007,Arjun Nair,arjun@gmail.com,9876543216,Kerala,Kochi,2024-07-08
+C008,Meera Joshi,meera@gmail.com,9876543217,Gujarat,Vadodara,2024-08-22
+C009,Rohan Gupta,rohan@gmail.com,9876543218,Uttar Pradesh,Lucknow,2024-09-14
+C010,Anjali Kapoor,anjali@gmail.com,9876543219,Delhi,New Delhi,2024-10-11
