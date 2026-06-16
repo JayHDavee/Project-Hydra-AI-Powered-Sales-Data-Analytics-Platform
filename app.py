@@ -9,7 +9,9 @@ from ai_sql_generator import generate_sql
 from sqlalchemy import text
 from schema_service import get_schema
 from query_service import execute_query
-
+from kafka_producer import (
+    send_sale_event
+)
 from csv_service import get_csv_summary
 
 app = FastAPI(
@@ -158,3 +160,17 @@ def query_database(
 def schema():
 
     return get_schema()
+
+@app.post("/sale")
+def create_sale(
+    sale: dict
+):
+
+    send_sale_event(
+        sale
+    )
+
+    return {
+        "message":
+        "Sale event sent to Kafka"
+    }
